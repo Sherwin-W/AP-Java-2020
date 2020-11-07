@@ -1,0 +1,32 @@
+package sherwinw;
+
+public class QuadraticEquation {
+	
+	public double a;
+	public double b;
+	public double c;
+	
+	public double discriminant = Math.sqrt(b * b - 4 * a * c);
+	
+	public QuadraticEquation( double a, double b, double c) {
+		this.a = a;
+		this.b = b;
+		this.c = c;
+	}
+	
+	public boolean hasSolution() {
+		if (discriminant < 0) {
+			return false;
+		}
+		return true;
+		
+	}
+	
+	public double getSolution1() {
+			return (-b + discriminant)/ (2 * a);
+	}
+	
+	public double getSolution2() {
+			return (-b - discriminant)/ (2 * a);
+	}
+}
