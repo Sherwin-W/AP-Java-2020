@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;Number.dat&apos; to &apos;Quart2&apos;" description="Move &apos;Number.dat&apos; to &apos;Quart2&apos;" destination="/Quart2" element1="src/sherwinw/Number.dat" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1604599412226" updateReferences="true"/>
-</session>

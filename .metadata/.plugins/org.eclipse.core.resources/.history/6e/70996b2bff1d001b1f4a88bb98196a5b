@@ -1,6 +1,0 @@
-package sherwinw;
-
-public class ThreeNumbers {
-
-	public ThreeNumbers(double a, double b, double c);
-}
